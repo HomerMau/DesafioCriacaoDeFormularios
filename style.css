@@ -1,0 +1,300 @@
+* {
+
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+}
+
+header h1,
+.fieldset-wrapper,
+.subtitle-wrapper,
+footer .button {
+
+    font-family: 'Staatliches', cursive;
+    
+}
+
+body, 
+.input-wrapper {
+    
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+
+    background: #EFEFEF;
+
+}
+
+body::before {
+
+    content: '';
+    width: 100%;
+    height: 436px;
+
+
+    position: absolute;
+    top: -2px;
+    left: 0px;
+    z-index: -1;
+    background: #535971;
+    
+    
+}
+
+header {
+
+    width: 417px;
+
+    margin-top: 140px;
+
+    color: white;
+
+}
+
+.page{
+
+    width: 750px;
+
+    margin: 0 auto
+
+}
+
+
+header h1 {
+
+    font-size: 48px;
+    line-height: 60px;
+
+    font-weight: 400;
+
+}
+
+header p {
+
+    font-size: 20px;
+    line-height: 30px;
+
+    width: 417px;
+
+    margin-top: 18px;
+
+}
+
+form {
+
+    margin-top: 58px;
+
+    background: #FAFAFC;
+
+    border-radius: 8px 8px 0 0;
+    min-height: 300px;
+
+    padding: 64px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+
+}
+
+fieldset {
+
+    border: none;
+
+}
+
+.fieldset-wrapper {
+
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    line-height: 34px;
+
+    color: #535971;
+        
+}
+
+
+.line {
+
+    border-bottom: 1px solid #E6E6F0;
+    
+    padding-bottom: 16px; 
+    
+    
+    
+    
+    margin-bottom: 20px;
+    
+}
+
+.input-wrapper {
+    
+    
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.input-wrapper label {
+    
+    margin-top: 16px;
+
+    font-size: 14px;
+    line-height: 24px;
+    
+    
+    color: #4E4958;
+
+    margin-bottom: 8px;
+
+}
+
+.nome-sob {
+
+    display: flex;
+    gap: 22px;
+
+    width: 100%;
+
+
+}
+
+.nome-sob > div:nth-child(1) {
+
+    width: 100%;
+
+}
+
+.nome-sob > div:nth-child(2) {
+
+    width: 100%;
+
+}
+
+
+.input-wrapper label span {
+
+    margin-left: 9px;
+
+    font-size: 12px;
+    line-height: 20px;
+
+    color: #C1BCCC;;
+
+}
+
+.input-wrapper label span:hover {
+
+    color: #6C6A71;
+
+}
+
+.input-wrapper input {
+
+    
+
+    background: #FAFAFC;
+    
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    
+
+    height: 56px;
+
+    padding: 0 24px;
+
+    
+
+    background: #efeff36e;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+}
+
+.subtitle-wrapper {
+    
+
+    display: flex;
+    flex-direction: column;
+
+    font-size: 20px;
+    line-height: 34px;
+
+    margin-top: -10px;
+
+    
+
+    color: #535971;
+
+}
+
+
+
+.col-3 {
+
+    display: flex;
+    width: 100%;
+    gap: 0 10px;
+}
+
+.col-3 > div:nth-child(1) {
+
+    width: 100%;
+
+    margin-right: 20px;
+
+}
+
+footer {
+
+
+    background-color: #535971;
+
+    height: 160px;
+
+    display: flex;
+    flex-direction: column;
+
+    
+    padding: 55px 64px;
+
+    margin-bottom: 100px;
+
+    border-radius: 0px 0px 20px 20px;
+}
+
+
+footer .button {
+
+    height: 56px;
+
+    background: #FF5374;
+    border: 0;
+    border-radius: 20px;
+
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: white;
+
+}
+
+footer .button:hover {
+
+    background: #ee113d;
+
+}
+
+
+input:invalid {
+
+    border: 1px solid red;
+
+}
